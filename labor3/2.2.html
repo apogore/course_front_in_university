@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>В поисках грааля</title>
+    <style>
+        table {
+            border: solid 1px #000;
+            width: 100%;
+            height: 100%;
+            table-layout: fixed;
+        }
+        td {
+            border: solid 1px #000;
+            align-content: center;
+        }
+        .first_row {
+            height: 18vh;
+        }
+        .second_row {
+            height: 61vh;
+        }
+        .third_row {
+            height: 18vh;
+        }
+        .first_col {
+            width: 25vw;
+        }
+        .second_col {
+            width: 50vw;
+        }
+        .third_col {
+            width: 25vw;
+        }
+        td img {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+        .first_row img {
+            height: 17vh;
+        }
+        .second_row img {
+            height: 60vh;
+        }
+        .third_row img {
+            height: 17vh;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr class="first_row">
+            <td class="first_col">
+                <img class="corner" src="gallery/cross.png" alt="">
+            </td>
+            <td class="second_col"> <a href="1.2.html"><img src="gallery/arrow_up.png" alt=""></a></td>
+            <td class="third_col"><img class="corner" src="gallery/cross.png" alt=""></td>
+        </tr>
+        <tr class="second_row">
+            <td class="first_col"><a href="2.1begin.html"><img src="gallery/arrow_left.png" alt=""></a></td>
+            <td class="second_col">
+                <img src="gallery/2.2.png" alt="center_img">
+            </td>
+            <td class="third_col">
+                <a href="2.2.html"><img src="gallery/arrow_right.png" alt=""></a>
+            </td>
+        </tr>
+        <tr class="third_row">
+            <td class="first_col"><img class="corner" src="gallery/cross.png" alt=""></td>
+            <td class="second_col"><img src="gallery/cross.png" alt=""></td>
+            <td class="third_col"><img class="corner" src="gallery/cross.png" alt=""></td>
+        </tr>
+    </table>
+</body>
+</html>

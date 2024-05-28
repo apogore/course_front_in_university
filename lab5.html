@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Форма авторизации и ввода данных паспорта</title>
+</head>
+<body>
+
+<div>
+    <h2>Авторизация</h2>
+    <form method="POST">
+        <label for="username">Логин</label> <br>
+        <input type="text" id="username" required> <br> <br>
+
+        <label for="password">Пароль</label><br>
+        <input type="password" id="password" required> <br> <br> 
+
+        <button type="reset">Очистить</button>
+        <button type="submit">Отправить</button>
+    </form>
+
+    <br>
+
+    <h2>Ввод данных паспорта</h2>
+    <form>
+        <label for="firstName">Имя</label> <br>
+        <input type="text" id="firstName" required> <br> <br>
+
+        <label for="surname">Фамилия</label> <br>
+        <input type="text" id="surname" required> <br> <br>
+
+        <label for="fathersName">Отчество</label> <br>
+        <input type="text" id="fathersName"> <br> <br>
+
+        <label for="birthday">Дата рождения</label> <br>
+        <input type="date" id="birthday"> <br> <br>
+        
+        <label for="whoIssued">Кем выдан</label> <br>
+        <input type="text" id="whoIssued"> <br> <br>
+
+        <label for="whereIssued">Где выдан</label> <br>
+        <input type="text" id="whereIssued"> <br> <br>
+
+        <label for="passportNumber">Номер</label> <br>
+        <input type="text" id="passportNumber" required> <br> <br>
+        
+        <label for="passportSeries">Серия</label> <br>
+        <input type="text" id="passportSeries" required> <br> <br>
+
+        <label for="biography">Автобиография</label> <br>
+        <textarea id="biography"></textarea> <br> <br>
+
+        <label for="passportPhoto">Фото из паспорта</label> <br>
+        <input type="file" id="passportPhoto" required> <br> <br>
+
+        <button type="reset">Очистить</button>
+        <button type="submit">Отправить</button>
+    </form>
+</div>
+
+</body>
+</html>
